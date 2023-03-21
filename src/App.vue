@@ -40,7 +40,7 @@ export default {
 }
 
 img {
-  width: 60vh;
+  width: clamp(15em, 60vw, 200em);
   border-radius: 5vw;
 }
 
